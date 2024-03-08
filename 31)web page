@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .book {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Novel Recommendations</h1>
+    </header>
+
+    <main>
+        <div class="book">
+            <h2>The Book Title</h2>
+            <img src="book1.jpg" alt="Book Cover">
+            <p>A brief description of the novel and why it's recommended. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac quam id libero tincidunt dignissim.</p>
+            <p>Author: John Doe</p>
+        </div>
+
+        <div class="book">
+            <h2>Another Book Title</h2>
+            <img src="book2.jpg" alt="Book Cover">
+            <p>A brief description of the novel and why it's recommended. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac quam id libero tincidunt dignissim.</p>
+            <p>Author: Jane Smith</p>
+        </div>
+        <!-- Add more book recommendations as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Novel Recommendations</p>
+    </footer>
+
+</body>
+
+</html>
